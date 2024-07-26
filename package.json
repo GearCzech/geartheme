@@ -1,0 +1,25 @@
+{
+  "name": "geartheme",
+  "displayName": "GearTheme",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/GearCzech/geartheme.git"
+	},
+  "contributes": {
+    "themes": [
+      {
+        "label": "GearTheme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/GearTheme-color-theme.json"
+      }
+    ]
+  }
+}
